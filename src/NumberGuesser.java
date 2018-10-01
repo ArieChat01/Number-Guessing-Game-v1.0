@@ -15,7 +15,7 @@ public class NumberGuesser {
 
         System.out.println("Welcome to the NumberGuessing Game!");
         System.out.println("Here's how to play. I am going to think of random number\nbetween 1 and 100.");
-        System.out.println("It is your job, to try to guess that number.\nYou will have 6 opportunities.\n \nAre you ready?");
+        System.out.println("It is your job, to try to guess that number.\nYou will have 5 opportunities.\n \nAre you ready?");
         System.out.print("What number am I thinking of?");
         System.out.println();
 
