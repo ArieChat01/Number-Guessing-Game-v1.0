@@ -11,7 +11,8 @@ public class NumberGuesser {
         pickedNumber = (int) (Math.random() * 100);
         keyboard = new Scanner(System.in);
 
-        System.out.print(pickedNumber + "\n");
+        /*System.out.println(pickedNumber + "\n");
+        */
 
         System.out.println("Welcome to the NumberGuessing Game!");
         System.out.println("Here's how to play. I am going to think of random number\nbetween 1 and 100.");
@@ -62,7 +63,7 @@ public class NumberGuesser {
             userNumber = keyboard.nextInt();
         }
         if (userNumber == pickedNumber) {
-            System.out.println("Congratulations! You guessed it!The number I was thinking of was " + pickedNumber + ".");
+            System.out.println("Congratulations! You guessed it! The number I was thinking of was " + pickedNumber + ".");
         }
         else if (userNumber != pickedNumber) {
             System.out.println("Aww. You are still wrong. My number was " + pickedNumber + ".");
